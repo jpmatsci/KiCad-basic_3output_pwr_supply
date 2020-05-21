@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/plank/kicad/PWR_SUPPLY/PWR_SUPPLY.sch</source>
+    <date>Sat 16 May 2020 04:54:57 PM EDT</date>
+    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PWR_SUPPLY.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="Part">497-7255-2-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBE8AFE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470uF 15V</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x3.9</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf</datasheet>
+      <fields>
+        <field name="Part">PCE3909DKR-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC75D50</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Part">1N4148W-FDIDKR-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC95160</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>IRM-20-12</value>
+      <footprint>Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT</footprint>
+      <datasheet>http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF</datasheet>
+      <fields>
+        <field name="Part">1866-3038-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Converter_ACDC" part="IRM-20-12" description="12V 1.8A 20W miniature AC-DC module-type power supply MeanWell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC9CA17</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282837&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part">A113320-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC9ED87</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>Fuse:Fuse_Bourns_MF-RG500</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_trf600_150_product_specification.pdf.pdf</datasheet>
+      <fields>
+        <field name="Part">TRF600-150-2TR-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECA6633</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282837&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part">A113320-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB6E5F</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282837&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part">A113320-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB7419</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Part">478-1395-6-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECBEDA2</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Part">478-1395-6-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECBF36A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Part">1N4148W-FDIDKR-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECC05B3</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Part">478-1395-6-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECC0AE4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Part">478-1395-6-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECC1065</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>470uF 15V</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x3.9</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf</datasheet>
+      <fields>
+        <field name="Part">PCE3909DKR-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECC1582</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LD1117</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117C.pdf</datasheet>
+      <fields>
+        <field name="Part">497-3455-6-ND </field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LD1117" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECCCFF7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282837&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Part">A113320-ND</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED026CF</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_ACDC" part="IRM-20-3.3">
+      <aliases>
+        <alias>IRM-20-5</alias>
+        <alias>IRM-20-12</alias>
+        <alias>IRM-20-15</alias>
+        <alias>IRM-20-24</alias>
+      </aliases>
+      <description>3.3V 4.5A 14.85W miniature AC-DC module-type power supply MeanWell</description>
+      <docs>http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF</docs>
+      <footprints>
+        <fp>Converter*ACDC*MeanWell*IRM*20*THT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">IRM-20-3.3</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/L" type="power_in"/>
+        <pin num="2" name="AC/N" type="power_in"/>
+        <pin num="3" name="-Vo" type="power_out"/>
+        <pin num="4" name="+Vo" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LD1117">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Converter_ACDC">
+      <uri>/usr/share/kicad/library/Converter_ACDC.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/usr/share/kicad/library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(F1-Pad2)">
+      <node ref="J1" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad2)">
+      <node ref="PS1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(F1-Pad1)">
+      <node ref="PS1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="4" name="+12V">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="PS1" pin="4"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="6" name="+3V3">
+      <node ref="U2" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="PS1" pin="3"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+  </nets>
+</export>
